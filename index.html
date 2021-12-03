@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <!--BOOTSTRAP Y STYLE-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css" type="text/css">
+                                <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" id="nav-bar">
+            <div class="row cabezera container justify-content-md-center">
+            <a class="col navbar-brand d-flex justify-content-fin-sm-center" href="#"><img id="header-img" src="static/images/rock-guitar.png" width="120px" height="60px" alt="guitarra-de-rock">
+                <span class="tit-header">Guitarras Artesanales</span></a>
+            <ul class="navbar-nav col-sm-2 col-fin-2 barra ">
+                <li class="nav-item cab-1">
+                    <a class="nav-link active" aria-current="page" href="#icon">Hogar</a>
+                </li>
+                <li class="nav-item cab-2">
+                    <a class="nav-link" href="#caracteristicas">Caracteristicas</a>
+                </li>
+                <li class="nav-item cab-3">
+                    <a class="nav-link" href="#cartas">Precios</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="static/images/guitarras/e-guitar-1736291_1920.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Diseños</h5>
+                  <p>Tenemos los mejores tipos y diseños de guitarras para que eligas la que mas te guste prefieras.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="static/images/guitarras/fender-2409274_1920.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Marcas</h5>
+                  <p>Marcas de primer nivel mundial y tambien las mejores a nivel nacional las encontraras aqui</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="static/images/guitarras/guitar-670087_1920.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Sonido</h5>
+                  <p>Con nuestras guitarras prodas sacarle el sonido mas preciso a tu guitarra y sorprender a todos tus amigos</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <section class="new-central">
+            <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank"> 
+                <div class="mb-3 inputs">
+                    <label for="guitarras"></label><h1 id="tit">Las mejores guitarras artesanales</h1></label>
+                    <input type="email" class="form-control" id="email" name="email" required="true" placeholder="Ingrese su email" size="80" value=""/>
+                </div>
+                <div class="text-center">
+                    <input type="submit" id="submit" class="btn btn-dark btn-sm boton" href="https://www.freecodecamp.com/email-submit"/>
+                </div>
+            </form>
+        </section>
+
+        <article class="new-icon" id="icon">
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="90" height="70" fill="currentColor" class="bi bi-layers-half" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                </svg><div class="text"><span>Materiales Premium</span><p>Nuestras guitarras usan los mejores materiales,
+                    resistentes a golpes y incluso al agua lo cual no dañara su diseño.
+                </p>
+                </div>
+            </div>
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="90" height="70" fill="currentColor" class="bi bi-truck icon-2" viewBox="0 0 16 16">
+                    <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                </svg><div class="text"><span>Envios</span><p>Envios a cada parte del pais,
+                    y tambien a la mayoria de paises limitrofes.</p>
+                </div>
+
+            </div>
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="90" height="70" fill="currentColor" class="bi bi-battery-full" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
+                    <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"/>
+                    <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
+                    <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
+                </svg><div class="text"><span>Financiacion</span><p>Aceptamos todas las tarjetas, y tenemos 
+                    los mejores medios de financiacion con la menor taza.</p>
+                </div>
+            </div>
+        </article>
+
+    <section class="video" id="caracteristicas">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/N_7UjyT2HkE" 
+        controls title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+
+    <section class="news-card" id="cartas">
+        <div>
+            <div class="new-tit">
+                Guitarra Yamaha C40
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">$700</h5>
+                <p class="card-text"> Su cuerpo delgado y 
+                    pequeño no solo es perfecto para principiantes, sino que también para los niveles medios</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary">SELECCIONAR</a>
+              </div>
+        </div>
+        <div>
+            <div class="new-tit">
+                FS800 de Yamaha 
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">$1000</h5>
+                <p class="card-text">Modelo de acústica estándar de Yamaha, con estética sencilla y tradicional, excelente calidad y a un precio asequible.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary">SELECCIONAR</a>
+              </div>
+        </div>
+        <div>
+            <div class="new-tit">
+                Washburn WD7SCE 
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">$1800</h5>
+                <p class="card-text">El cuerpo está hecho de paneles traseros y laterales de caoba con una sólida caja de 
+                    sonido de abeto en la parte superior. </p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary">SELECCIONAR</a>
+              </div>
+        </div>
+      </section>
+
+      <section class="footer">
+          <footer>
+                <div>
+                    <p>Privacy</p><p>Terms</p><p>Contact</p>
+                </div>
+                <div>
+                    <p>Copyright 2021, Original Guitarras</p>
+                </div>
+          </footer>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>

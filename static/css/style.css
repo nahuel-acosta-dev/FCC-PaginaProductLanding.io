@@ -1,0 +1,305 @@
+
+body{
+    font-size: 1em;
+    background-image: url("../images/musician.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*HEADER*/
+
+ .barra{
+     margin-right: 1.8em;
+     font-family: 'Otomanopee One', sans-serif;
+ }
+ .tit-header{
+    font-family: 'Bona Nova', serif;
+    font-size: 1.5em;
+}
+
+/*FIN HEADER*/
+
+/*CARRUSEL*/
+    .carousel{
+        margin-top: 5em;
+    }
+
+
+/*FIN CARRUSEL*/
+
+
+/*TITULO Y FORM*/
+
+#tit{
+    font-size: 1.8em;
+    font-family: 'Encode Sans SC', sans-serif;
+    text-align: center;
+}
+
+.form-control{
+    border-radius: 2px;
+    border: 1px solid black;
+    height: 1.8em;
+    width: 18.75em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boton{
+    width: 12.5em;
+    border-radius: 2px;
+    font-family: 'Otomanopee One', sans-serif;
+    text-transform: uppercase;
+}
+
+.new-central{
+    color: white;
+}
+/*FIN TITULO Y FORM*/
+
+/*ARTICULOS*/
+.new-icon{
+    margin-top: 2em;
+}
+
+svg{
+    color: rgb(240, 227, 53);
+    vertical-align: middle;
+    
+}
+
+.new-icon > div{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.text{
+    margin-left: 18%;
+    position: relative;
+    bottom: 3.75em;
+    color: white;
+}
+
+.text > span{
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/*FIN ARTICULOS*/
+
+/*VIDEO*/
+.video{
+    position: relative;
+    top: 1.25em;
+    text-align: center;
+}
+
+/*FIN VIDEO*/
+
+/*PRECIOS*/
+.news-card{
+    margin-top: 6.25em;
+    width: 100vw;
+    display: flex;
+}
+
+
+.news-card > div{
+     text-align: center;
+     width: 18.75em;
+     height: 18.75em;
+     border-radius: 10px;
+     border: 2px solid black;
+     margin-left: auto;
+     margin-right: auto
+ }
+
+.new-tit{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    background-image:url(../images/music-sheet-1412020_1920.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 3.1em;
+ }
+
+ .card-title, .card-text{
+     color: white;
+ }
+
+ .card-body > a{
+     background-color: #c2932d;
+ }
+/*FIN PRECIOS*/
+
+/*FOOTER*/
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    background-color: #080806
+}
+
+footer > div{
+    float: right;
+    display: flex;
+}
+
+footer > div > p{
+    color: white;
+    margin-right: 22px;
+}
+footer > div:nth-child(2){
+    margin-top: 1.5em;
+    margin-right: -14em;
+    
+}
+
+/*FIN FOOTER*/
+
+
+/*CUERPO*/
+section, article{
+    margin-top: 2em;
+}
+.new-icon{
+    margin-top: 3.5em;
+}
+/*FIN CUERPO*/
+
+
+/*RESPONSIVE DESIGN*/
+
+/*-------------BIG-----------------*/
+@media (min-width:992px){
+/*HEADER*/
+
+   .cab-1, .cab-2{
+        margin-right: 1.8em;
+    }
+
+/*FIN HEADER*/
+}
+
+@media (min-width:768px) and (max-width: 992px){
+/*PRECIOS*/
+
+    .news-card > div{
+        width: 30%;
+    }
+
+/*FIN PRECIOS*/
+}
+
+
+/*------------MEDIUM-----------------*/
+@media (max-width: 767px){
+
+/*HEADER*/
+    .col-fin-2{
+        flex:0 0 auto;
+        width:16.66666667%;
+        margin-left:40%;
+    }
+    .justify-content-fin-md-center
+    {
+        justify-content:center!important;
+    }
+
+/*FIN HEADER*/
+
+/*CARRUSEL*/
+.carousel{
+    margin-top: 12em;
+}
+
+/*FIN CARRUSEL*/
+
+/*ARTICULOS*/
+.new-icon{
+    margin-left: 2em;
+}
+
+
+/*FIN ARTICULOS*/
+
+/*PRECIOS*/
+
+    .news-card{
+        flex-direction: column;
+    }
+    .news-card > div{
+        margin-top: 20px;
+    }
+
+/*FIN PRECIOS*/
+
+    .new-central{
+        margin-top: 1em;
+    }
+    .new-icon{
+        margin-top: 7.5em;
+    }
+
+}
+
+
+
+
+/*------------SMALL-----------------*/
+ @media(max-width:576px){
+/*HEADER*/
+
+    .barra{
+    margin-left: 40%;
+    }
+
+/*FIN HEADER*/
+
+
+/*ARTICULOS*/
+    svg{
+        display: none;  
+    }
+
+    .text{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .text > span{
+        text-align: center;
+    }
+
+    .new-icon > div{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+/*FIN ARTICULOS*/
+
+
+/*VIDEO*/
+    .video{
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    iframe{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/*FIN VIDEO*/
+
+}
